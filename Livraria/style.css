@@ -1,0 +1,86 @@
+.nav-link {
+	color: #ffd412;
+	transition: all 0.1s;
+}
+
+.nav-link:hover {
+	background-color: black;
+	color: white;
+}
+
+.card {
+	margin: auto;
+	margin-top: 5%;
+}
+
+#card-btn {
+	background-color: #ff8c12;
+	border: none;
+	position: absolute;
+	bottom: 5%;
+}
+
+#card-btn:hover {
+	background-color: black;
+}
+
+.card-img {
+	width: 100%;
+	margin: auto;
+}
+
+#cardsprincipais {
+	display: flex;
+}
+
+#cardslivro {
+	display: flex;
+	margin-top: -10%;
+	margin-bottom: 3%;
+}
+
+#separar {
+	height: 15vh;
+}
+
+#cardslivro .card .card-img {
+	width: 200px;
+	height: 320px;
+}
+
+#cardslivro .card {
+	width: 20rem;
+	height: 35rem;
+}
+
+#divtexto h1 span {
+	background-color: #212529;
+	border: #212529 10px solid;
+	border-radius: 20px;
+	color: white;
+	display: inline-flex;
+	margin-left: 46vw;
+	margin-top: 3vw;
+}
+
+#divtexto p {
+	text-align: center;
+}
+
+#divtexto p span {
+	background-color: #212529;
+	border: #212529 10px solid;
+	border-radius: 20px;
+	color: white;
+	display: inline-flex;
+	margin: 10%;
+	margin-top: 3vw;
+}
+
+h1 {
+	color: white;
+}
+
+body {
+	background-image: url(bg.png);
+}
