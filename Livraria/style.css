@@ -53,13 +53,16 @@
 	height: 35rem;
 }
 
+#divtexto h1 {
+	text-align: center
+}
+
 #divtexto h1 span {
 	background-color: #212529;
 	border: #212529 10px solid;
 	border-radius: 20px;
 	color: white;
 	display: inline-flex;
-	margin-left: 46vw;
 	margin-top: 3vw;
 }
 
@@ -77,10 +80,46 @@
 	margin-top: 3vw;
 }
 
+#icone {
+	width: 50px
+}
+#iconemapa {
+	width: 50px;
+	margin-left: 83%;
+	position: absolute;
+	top: 1.2rem;
+}
+
+#cardsloja {
+	margin-bottom: 3%;
+	display: flex;
+}
+
+#cardsloja .card {
+	width: 30rem;
+	height: 6rem;
+	margin-top: 1%
+}
+
+#paragr {
+	margin-top: -1%
+}
+
+#paragr p {
+	margin: auto;
+	margin-bottom: -10%
+}
+
 h1 {
 	color: white;
 }
 
 body {
 	background-image: url(bg.png);
+}
+
+a {
+	background-color: #ff7300;
+	text-decoration: underline;
+	color: #fffd9c
 }
